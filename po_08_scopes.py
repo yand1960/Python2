@@ -11,8 +11,13 @@ print(dummy(1))
 print(a)
 
 a = None
+
 if a is None:
     print("a is none")
 
-del(a)
-print(a)
+x1 = 1
+x2 = 1.0
+print(x1 == x2)
+print(x1 is x2)
+
+
