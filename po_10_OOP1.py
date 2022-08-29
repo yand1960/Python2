@@ -23,3 +23,5 @@ print(MyGeometry.hypot(3, 4), MyGeometry.square(3, 4))
 #  Геометрия Гаусса
 MyGeometry.non_eugluid = 1.1
 print(MyGeometry.hypot(3, 4), MyGeometry.square(3, 4))
+
+# https://github.com/yand1960/Python3
