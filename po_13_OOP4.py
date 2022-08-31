@@ -12,7 +12,7 @@ class Vocabulary:
 
     def statistics_letters(self):
         text = str().join(self.words)
-        letters = "абвгдежзиклмнопрстуфхцчшщъыьэюя"
+        letters = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
         results = {}
         for letter in letters:
             results[letter] = text.count(letter)
