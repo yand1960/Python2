@@ -52,3 +52,5 @@ if __name__ == "__main__":
                 print(x1)
 
     #Улучшите асимтотику
+
+    # https: //github.com/yand1960/python2
