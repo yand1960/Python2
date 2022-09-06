@@ -53,4 +53,4 @@ if __name__ == "__main__":
 
     #Улучшите асимтотику
 
-    # https: //github.com/yand1960/python2
+    # https://github.com/yand1960/python2
