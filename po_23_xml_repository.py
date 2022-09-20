@@ -16,7 +16,7 @@ class Product:
 class ProductRepositoryXml:
 
     def __init__(self, datafile: str):
-        with open("data/Products.xml", encoding="utf-8") as f:
+        with open(datafile, encoding="utf-8") as f:
             text = f.read()
         products_tree = ET.fromstring(text)
 
@@ -24,7 +24,7 @@ class ProductRepositoryXml:
         for p in products_tree.findall("Product"):
             id = int(p.find("ProductID").text)
             name = p.find("Name").text
-            code = p.find("ProductNumber")
+            code = p.find("ProductNumber").text
             price = float(p.find("ListPrice").text)
             self.products.append(Product(id, name, code, price))
 
