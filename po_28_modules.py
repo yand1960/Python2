@@ -1,4 +1,4 @@
-# 1. Импорт модулей по отношению к текущей
+# 1. Импорт модулей по отношению к текущей папке
 from module1.module11.po_28a_modules import foo, foo1
 from module1.module12.po_28b_modules import Arith
 
@@ -19,7 +19,7 @@ import sys
 # Но это катит только в том случае, если написано внутри пакета:
 # from  ..Python2.module1.module11.po_28a_modules import foo, foo1
 # from  ..Python2.module1.module12.po_28b_modules import Arith
-# так что работающий относительный импорт
+# Так что работающий относительный импорт
 # см. в файле module1/module11/po_28a_modules.py
 
 print(foo, foo1(), Arith().plus(1, 2))

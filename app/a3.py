@@ -1,0 +1,1 @@
+from app1.app2.a2 import foo777
