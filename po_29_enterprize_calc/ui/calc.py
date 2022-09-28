@@ -1,3 +1,4 @@
+import params
 from PyQt5.QtWidgets import QApplication, QWidget, QLineEdit, QPushButton
 from po_29_enterprize_calc.buslog.calculations import Calculations
 
@@ -24,7 +25,7 @@ class Calc(QWidget):
         self.txtZ = QLineEdit(self)
         self.txtZ.setGeometry(10, 120, 100, 20)
 
-        self.calculations = Calculations("../../data/calcs.csv")
+        self.calculations = Calculations(params.CONNECTION_STRING)
 
         self.show()
 
